@@ -1,0 +1,540 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    box-sizing: border-box;
+
+    max-width: 2000px;
+
+    margin: 0 auto;
+
+    display: inline-flex;
+
+    flex-wrap: wrap;
+
+
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.MenuNave {
+    /* Retangulo 1 */
+    position: absolute;
+    width: 1834px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px -15px rgba(0, 0, 0, 0.2);
+}
+
+body {
+
+    background: #dbe3e2;
+    display: flex;
+    justify-content: space-between;
+    /* Os cards internos ficaram com espaços propocionais entre eles */
+    width: 100%;
+
+
+}
+
+h1 {
+    /* TechShop */
+    position: absolute;
+    width: 119px;
+    height: 29px;
+    left: 130px;
+    top: 25px;
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+ul {
+    display: flex;
+}
+
+.TV {
+    /* Televisões */
+    position: absolute;
+    width: 80px;
+    height: 19px;
+    left: 295px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+
+    color: #585E65;
+
+}
+
+.Cel {
+    /* Celulares */
+    position: absolute;
+    width: 71px;
+    height: 19px;
+    left: 421px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #585E65;
+}
+
+.Eletro {
+    /* Eletrodomésticos */
+    position: absolute;
+    width: 132px;
+    height: 19px;
+    left: 538px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #585E65;
+}
+
+.Infor {
+           /* Informática */
+    position: absolute;
+    width: 85px;
+    height: 19px;
+    left: 716px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #585E65;
+}
+
+button {
+       /* Promoções */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    position: absolute;
+    width: 145px;
+    height: 40px;
+    left: 1250px;
+    top: 17px;
+    right: 148px;
+
+    background: #4C6EF5;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+a {
+    color: #585E65;
+    text-decoration: none;
+
+}
+
+                           /* Cards */
+
+
+.descriptionALL {
+    position: absolute;
+    width: 282px;
+    height: 207px;
+    left: 5px;
+    right: 25px;
+    top: 240px;
+    bottom: 148px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+
+
+    color: #000000;
+}
+
+.preçoALL {
+    /* R$ 2.000,00 */
+    position: absolute;
+    width: 97px;
+    height: 28px;
+    left: 0px;
+    right: 256px;
+    top: 100px;
+    bottom: 100px;
+
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    
+
+
+}
+
+.cardsbox1 {
+    margin: 5px;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 130px;
+    right: 1330;
+    top: 114px;
+    bottom: 613px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.buttonADD {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 270px;
+    height: 48px;
+    left: 151px;
+    top: 540px;
+
+    background: #4C6EF5;
+    border: 1.5px solid #4C6EF5;
+    border-radius: 8px;
+}
+
+.buttonADD {
+
+    left: 5px;
+    right: 0px;
+    top: 389px;
+    bottom: 26px;
+}
+
+                       /* Card 2 Note */
+
+.cardsbox2 {
+    margin: 5px;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 130px;
+    right: 1330;
+    top: 114px;
+    bottom: 613px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+
+.imagensTOP {
+    text-align: center;
+    position: relative;
+    width: 282px;
+    height: 207px;
+    left: 10px;
+    right: 49px;
+    top: 43px;
+    bottom: 250px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.imagensBotton {
+    text-align: center;
+    position: relative;
+    width: 282px;
+    height: 207px;
+    left: 10px;
+    right: 49px;
+    top: 43px;
+    bottom: 250px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+
+}
+
+
+                     /* Card 3 Ar */
+
+.cardsbox3 {
+    margin: 5px;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 130px;
+    right: 1330;
+    top: 114px;
+    bottom: 613px;
+
+    background: #FFFFFF;
+    border-radius: 8px
+}
+
+.preçoALL {
+
+    position: absolute;
+    width: 97px;
+    height: 28px;
+    left: 0px;
+    right: 256px;
+    top: 100px;
+    bottom: 100px;
+
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+
+}
+
+                       /* Card 4 Geladeira */
+
+.cardsbox4 {
+    margin: 5px;
+
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 130px;
+    right: 1330;
+    top: 114px;
+    bottom: 613px;
+
+    background: #FFFFFF;
+    border-radius: 8px
+}
+
+                     /* Card 5 Celular */
+
+.cardsbox5 {
+    margin: 5px;
+
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 130px;
+    right: 1330;
+    top: 114px;
+    bottom: 613px;
+
+    background: #FFFFFF;
+    border-radius: 8px
+}
+
+                  /* Card 6 Fritadeira */
+.cardsbox6 {
+    margin: 5px;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 130px;
+    right: 1330;
+    top: 114px;
+    bottom: 613px;
+
+    background: #FFFFFF;
+    border-radius: 8px
+}
+
+                  /* Card 7 SmartTV */
+.cardsbox7 {
+    margin: 5px;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 130px;
+    right: 1330;
+    top: 114px;
+    bottom: 613px;
+
+    background: #FFFFFF;
+    border-radius: 8px
+}
+
+                           /* Card 8 Cadeira */
+.cardsbox8 {
+    margin: 5px;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 130px;
+    right: 1330;
+    top: 114px;
+    bottom: 613px;
+
+    background: #FFFFFF;
+    border-radius: 8px
+}
