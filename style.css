@@ -134,7 +134,7 @@ table {
 .container {
     box-sizing: border-box;
 
-    max-width: 2000px;
+    max-width: 1200px;
 
     margin: 0 auto;
 
@@ -336,12 +336,14 @@ a {
 }
 
 .cardsbox1 {
+    box-sizing: border-box;
     margin: 5px;
+    margin-bottom: 16px;
     position: relative;
-    width: 300px;
+    width: 24%;
     height: 500px;
-    left: 130px;
-    right: 1330;
+    left: 40px;
+    right: 1200px;
     top: 114px;
     bottom: 613px;
 
@@ -375,11 +377,14 @@ a {
 
 .cardsbox2 {
     margin: 5px;
+    box-sizing: border-box;
+
+    margin-bottom: 16px;
     position: relative;
-    width: 300px;
+    width: 24%;
     height: 500px;
-    left: 130px;
-    right: 1330;
+    left: 40px;
+    right: 1200px;
     top: 114px;
     bottom: 613px;
 
@@ -389,15 +394,21 @@ a {
 
 
 .imagensTOP {
-    text-align: center;
     position: relative;
-    width: 282px;
-    height: 207px;
-    left: 10px;
-    right: 49px;
-    top: 43px;
+    text-align: center;
+    
+    box-sizing: border-box;
+    
+    left: 4px;
+    
+    top: 30px;
     bottom: 250px;
 
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -406,13 +417,14 @@ a {
 }
 
 .imagensBotton {
-    text-align: center;
     position: relative;
-    width: 282px;
-    height: 207px;
-    left: 10px;
-    right: 49px;
-    top: 43px;
+    text-align: center;
+    
+    box-sizing: border-box;
+    
+    left: 4px;
+    
+    top: 30px;
     bottom: 250px;
 
     font-family: 'Inter';
@@ -423,21 +435,22 @@ a {
 
 }
 
-
                      /* Card 3 Ar */
 
 .cardsbox3 {
+    box-sizing: border-box;
     margin: 5px;
+    margin-bottom: 16px;
     position: relative;
-    width: 300px;
+    width: 24%;
     height: 500px;
-    left: 130px;
-    right: 1330;
+    left: 40px;
+    right: 1200px;
     top: 114px;
     bottom: 613px;
 
     background: #FFFFFF;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
 .preçoALL {
@@ -463,78 +476,86 @@ a {
                        /* Card 4 Geladeira */
 
 .cardsbox4 {
+    box-sizing: border-box;
     margin: 5px;
-
+    margin-bottom: 16px;
     position: relative;
-    width: 300px;
+    width: 24%;
     height: 500px;
-    left: 130px;
-    right: 1330;
+    left: 40px;
+    right: 1200px;
     top: 114px;
     bottom: 613px;
 
     background: #FFFFFF;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
                      /* Card 5 Celular */
 
 .cardsbox5 {
+    box-sizing: border-box;
     margin: 5px;
-
+    margin-bottom: 16px;
     position: relative;
-    width: 300px;
+    width: 24%;
     height: 500px;
-    left: 130px;
-    right: 1330;
+    left: 40px;
+    right: 1200px;
     top: 114px;
     bottom: 613px;
 
     background: #FFFFFF;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
                   /* Card 6 Fritadeira */
 .cardsbox6 {
+    box-sizing: border-box;
     margin: 5px;
+    margin-bottom: 16px;
     position: relative;
-    width: 300px;
+    width: 24%;
     height: 500px;
-    left: 130px;
-    right: 1330;
+    left: 40px;
+    right: 1200px;
     top: 114px;
     bottom: 613px;
 
     background: #FFFFFF;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
                   /* Card 7 SmartTV */
 .cardsbox7 {
+    box-sizing: border-box;
     margin: 5px;
+    margin-bottom: 16px;
     position: relative;
-    width: 300px;
+    width: 24%;
     height: 500px;
-    left: 130px;
-    right: 1330;
+    left: 40px;
+    right: 1200px;
     top: 114px;
     bottom: 613px;
 
     background: #FFFFFF;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
                            /* Card 8 Cadeira */
 .cardsbox8 {
+    box-sizing: border-box;
     margin: 5px;
+    margin-bottom: 16px;
     position: relative;
-    width: 300px;
+    width: 24%;
     height: 500px;
-    left: 130px;
-    right: 1330;
+    left: 40px;
+    right: 1200px;
     top: 114px;
     bottom: 613px;
 
     background: #FFFFFF;
-    border-radius: 8px
+    border-radius: 8px;
 }
